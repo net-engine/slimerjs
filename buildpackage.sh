@@ -119,7 +119,6 @@ echo "Build linux-x86_64 package..."
 cd $XRDIR
 cp -a $XULRUNNER_PACK_NAME.linux-x86_64 $TARGETDIR/xulrunner
 cd $TARGETDIR/..
-tar cjf "slimerjs-$VERSION-linux-x86_64.tar.bz2" "slimerjs-$VERSION"
 rm -rf $TARGETDIR/xulrunner
 
 # the end
